@@ -3,7 +3,6 @@ let mapleader = " "
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'joshdick/onedark.vim'
-Plug 'dart-lang/dart-vim-plugin'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -25,7 +24,6 @@ set relativenumber
 
 filetype plugin indent on
 set tabstop=4 shiftwidth=4 expandtab autoindent smartindent
-autocmd FileType dart setlocal ts=2 sw=2 sts=0
 
 " Turn off highlights
 nnoremap <silent> <leader><Enter> :nohl<CR>

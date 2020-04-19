@@ -12,6 +12,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 Plug 'vimwiki/vimwiki'
 Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-sleuth'
 call plug#end()
 
 if (has("termguicolors"))
@@ -25,7 +26,7 @@ set cul
 set relativenumber
 
 filetype plugin indent on
-set tabstop=4 shiftwidth=4 expandtab autoindent smartindent
+set expandtab autoindent smartindent
 
 " Turn off highlights
 nnoremap <silent> <leader><Enter> :nohl<CR>

@@ -10,11 +10,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
-<<<<<<< HEAD
 Plug 'vimwiki/vimwiki'
-=======
 Plug 'sheerun/vim-polyglot'
->>>>>>> c3b3b53e653c4faff0070f8c85aaeafcaef47c43
 call plug#end()
 
 if (has("termguicolors"))

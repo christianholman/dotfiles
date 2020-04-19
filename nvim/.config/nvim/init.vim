@@ -3,7 +3,6 @@ let mapleader = " "
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'joshdick/onedark.vim'
-Plug 'dart-lang/dart-vim-plugin'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -11,7 +10,11 @@ Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+<<<<<<< HEAD
 Plug 'vimwiki/vimwiki'
+=======
+Plug 'sheerun/vim-polyglot'
+>>>>>>> c3b3b53e653c4faff0070f8c85aaeafcaef47c43
 call plug#end()
 
 if (has("termguicolors"))
@@ -26,7 +29,6 @@ set relativenumber
 
 filetype plugin indent on
 set tabstop=4 shiftwidth=4 expandtab autoindent smartindent
-autocmd FileType dart setlocal ts=2 sw=2 sts=0
 
 " Turn off highlights
 nnoremap <silent> <leader><Enter> :nohl<CR>
